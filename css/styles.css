@@ -263,7 +263,7 @@ main{
 /*----------
 Pie de Pagina
 ----------*/
-.footer{
+footer{
     margin-top: 15px;
     padding: 10px;
     border-top: 2px solid var(--Font);
@@ -313,8 +313,65 @@ RESPONSIVE
         position: inherit;
         margin: 15px;
     }
+
+    .tarjeta{
+        width: 665px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .tarjeta-contenedor{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        bottom: 20%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .img-muñeco{
+        display: none;
+    }
+
+    .btn-copiar{
+        position: inherit;
+        width: 100%;
+    }
+
+    .evaluar{
+        width: 100%;
+        height: 210px;
+        padding: 10px;
+    }
 }
 
 @media(max-width: 720px){
+    header.logo{
+        width: 100%;
+        background: var(--white);
+        padding: 2px;
+    }
+
+    .encriptar{
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .encriptador-contenedor{
+        display: grid;
+        gap: 21px;
+    }
+
+    .tarjeta{
+        width: 90%;
+    }
+
+    .copyright{
+        font-size: 20px;
+    }
 
 }
