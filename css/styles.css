@@ -140,6 +140,20 @@ main{
 
 }
 
+.btn-encriptar:hover{
+    width: 338px;
+    height: 70px;
+    padding: 30px;
+    transition: all 0.3s;
+}
+
+.btn-desencriptar:hover{
+    width: 338px;
+    height: 70px;
+    padding: 30px;
+    transition: all 0.3s;
+}
+
 .btn-encriptar:active{
     box-shadow: inset 2px 2px 4px var(--Font),
     inset -3px -4px 8px var(--dark-blue);
