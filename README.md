@@ -1,4 +1,5 @@
 Descripción de su proyecto: El actual Proyecto tiene como objetivo la implementación de los conocimientos adquiridos a través de la Formación: Principiante en Programación G7 - ONE
+
 funcionalidades: Es un encriptador de texto, con llaves predefinidas, sirve tanto para encriptar como para desencriptar el texto
 
 Cómo pueden usarlo los usuarios:
