@@ -267,10 +267,11 @@ main{
     cursor: pointer;
 }
 
-.btn-copiar:hover
-.btn-encriptar:hover
-.btn-desencriptar:hover{
-    transform: scale(0.97);
+.btn-copiar:hover{
+    width: 230px;
+    height: 70px;
+    margin: 27px;
+    transition: all 0.3s;
 }
 
 
@@ -294,7 +295,7 @@ footer{
     opacity: 0.8;
 }
 
-.git:hover{
+.github:hover{
     color: var(--Font);
     opacity: 0.6;
 }
